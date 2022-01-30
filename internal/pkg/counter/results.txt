@@ -1,0 +1,16 @@
+goos: windows
+goarch: amd64
+pkg: pool/internal/pkg/counter
+cpu: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+BenchmarkInc-8       	   85064	     14153 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInc-8       	   79893	     13990 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInc-8       	   89052	     13876 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInc-8       	   87399	     13355 ns/op	       0 B/op	       0 allocs/op
+BenchmarkInc-8       	   92079	     13590 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIncPool-8   	   10000	    125537 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIncPool-8   	   10874	    124989 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIncPool-8   	   10000	    114706 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIncPool-8   	   10000	    145100 ns/op	       0 B/op	       0 allocs/op
+BenchmarkIncPool-8   	    9990	    129382 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	pool/internal/pkg/counter	15.555s
